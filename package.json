@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prod" : "next build && next start"
+    "prod": "next build && next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -15,6 +15,7 @@
     "date-fns": "^4.1.0",
     "next": "14.2.35",
     "react": "^18",
+    "react-day-picker": "^10.0.0",
     "react-dom": "^18"
   },
   "devDependencies": {
