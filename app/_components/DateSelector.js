@@ -46,11 +46,13 @@ function DateSelector({ settings, cabin, bookedDates }) {
         max={maxBookingLength}
         fromDate={new Date()}
         fromMonth={new Date()}
+        toYear={new Date().getFullYear() + 5}
         captionLayout="dropdown"
         disabled={(curDate) =>
           isPast(curDate) ||
           bookedDates.some((date) => isSameDay(date, curDate))
         }
+  
       />
 
       <div className="flex items-center justify-between px-8 bg-accent-500 text-primary-800 h-[72px]">
