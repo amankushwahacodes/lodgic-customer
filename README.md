@@ -34,8 +34,7 @@
 
 <!-- Brief -->
 <p align="center">
-<b> Lodgic </b> is a full-stack booking and operations management system designed for lodging businesses.
-It enables hotel staff to manage reservations, cabins, check-ins, users, and operational insights from a single platform.
+<b> Lodgic </b> is a full-stack cabin booking platform built with Next.js that allows users to explore cabins, check availability, and manage reservations through a seamless booking experience. It provides secure authentication, dynamic booking management, and a responsive interface optimized for modern web experiences.
 </p>
 
 <!-- Screenshot -->
@@ -79,9 +78,7 @@ It enables hotel staff to manage reservations, cabins, check-ins, users, and ope
 - **Styling:** Tailwind CSS
 - **Authentication:** Auth.js / NextAuth with Google OAuth
 - **Database & Backend:** Supabase
-- **Date Handling:** React Day Picker, date-fns
 - **Deployment:** Vercel
-
 ## Engineering Highlights
 
 - Built using Next.js App Router with Server Components and Client Components
