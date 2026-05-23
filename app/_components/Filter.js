@@ -30,7 +30,7 @@ function Filter() {
         1&mdash;3 guests
       </Button>
       <Button
-        filter="medium "
+        filter="medium"
         handleFilter={handleFilter}
         activeFilter={activeFilter}
       >
@@ -54,6 +54,6 @@ function Button({ filter, handleFilter, activeFilter, children }) {
   >
     {children}
   </button>;
-}
+} 
 
 export default Filter;
