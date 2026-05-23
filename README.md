@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <img src="./public/lodgic-dark.png" alt="logo" width="200" height="auto">
 
-First, run the development server:
+  <h1>Lodgic</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <h3>
+    <a href="https://lodgic-app.netlify.app/">
+      <strong>Live Site</strong>
+    </a>
+  </h3>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <div align="center">
+        <a href="https://lodgic-app.netlify.app/">View website</a>
+        •
+        <a href="https://github.com/amankushwahacodes/lodgic/issues">Report Bug</a>
+        •
+        <a href="https://github.com/amankushwahacodes/lodgic/pulls">Request Feature</a>
+  </div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  <hr>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</div>
 
-## Learn More
+<!-- Badges -->
+<div align="center">
 
-To learn more about Next.js, take a look at the following resources:
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amankushwahacodes)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- Brief -->
+<p align="center">
+<b> Lodgic </b> is a full-stack booking and operations management system designed for lodging businesses.
+It enables hotel staff to manage reservations, cabins, check-ins, users, and operational insights from a single platform.
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- Screenshot -->
+<a align="center" href="https://lodgic-app.netlify.app/">
+
+![Screenshot](./public/projectPreview.jpg)
+
+</a>
+
+## Authentication & User Management
+- Secure authentication ensures only authorized hotel employees can access the system
+- Employees can manage their profiles, including avatar uploads and password updates
+
+## Operations & Dashboard
+- Centralized overview displaying key operational metrics:
+  - Bookings
+  - Check-ins
+  - Sales
+  - Occupancy rate
+
+- Interactive charts and visual analytics for better operational insights
+
+## Core Features
+
+- **Cabin Management**
+  - Create, update, and delete cabin records with real-time availability updates
+
+- **Booking Management**
+  - Manage reservations, check guests in and out, and update booking statuses
+
+- **Real-time Sync**
+  - Cabins and bookings update instantly across the app using Supabase
+
+- **Dark Mode**
+  - Fully supported dark mode for improved usability and accessibility
+
+## Tech Stack
+
+- **Frontend:** React, React Router, Styled Components
+- **State & Data:** React Query
+- **Backend & Auth:** Supabase (Database, Authentication, Real-time)
+- **Forms:** React Hook Form
+- **Charts:** Recharts
+- **Build tool:** Vite
+
+## Engineering Highlights
+
+- Implemented secure authentication workflows using Supabase
+- Designed real-time data synchronization for bookings and cabin availability
+- Built reusable and scalable UI components using modern React patterns
+- Managed asynchronous data fetching and caching with React Query
+- Developed a theme-aware UI with full dark mode support
+
+## Credentials (Use this to login into the application)
+- **Email:** aman@example.com
+- **Password:** pass1234
+  
+
+## Author
+
+<b>👤 Aman Kushwaha</b>
+
+- LinkedIn - [@amankushwahacodes](https://www.linkedin.com/in/amankushwahacodes)
+- GitHub - [@amankushwahacodes](https://github.com/amankushwahacodes)
+
+Feel free to contact me with any questions or feedback!
