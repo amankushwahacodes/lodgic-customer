@@ -1,21 +1,21 @@
 <div align="center">
 
-  <img src="./public/lodgic-dark.png" alt="logo" width="200" height="auto">
+  <img src="./public/logo.png" alt="logo" width="100" height="auto">
 
   <h1>Lodgic</h1>
 
   <h3>
-    <a href="https://lodgic-app.netlify.app/">
+    <a href="https://lodgic-customer.vercel.app/">
       <strong>Live Site</strong>
     </a>
   </h3>
 
   <div align="center">
-        <a href="https://lodgic-app.netlify.app/">View website</a>
+        <a href="https://lodgic-customer.vercel.app/">View website</a>
         •
-        <a href="https://github.com/amankushwahacodes/lodgic/issues">Report Bug</a>
+        <a href="https://github.com/amankushwahacodes/lodgic-customer">Report Bug</a>
         •
-        <a href="https://github.com/amankushwahacodes/lodgic/pulls">Request Feature</a>
+        <a href="https://github.com/amankushwahacodes/lodgic-customer/pulls">Request Feature</a>
   </div>
 
   <hr>
@@ -39,60 +39,65 @@ It enables hotel staff to manage reservations, cabins, check-ins, users, and ope
 </p>
 
 <!-- Screenshot -->
-<a align="center" href="https://lodgic-app.netlify.app/">
+<a align="center" href="https://lodgic-customer.vercel.app/">
 
-![Screenshot](./public/projectPreview.jpg)
+![Screenshot](./public/preview.png)
 
 </a>
 
 ## Authentication & User Management
-- Secure authentication ensures only authorized hotel employees can access the system
-- Employees can manage their profiles, including avatar uploads and password updates
+- Secure Google authentication allows users to sign in and manage their bookings
+- Personalized guest profile management with account details and reservation history
+- Protected routes ensure only authenticated users can access reservation features
 
-## Operations & Dashboard
-- Centralized overview displaying key operational metrics:
-  - Bookings
-  - Check-ins
-  - Sales
-  - Occupancy rate
-
-- Interactive charts and visual analytics for better operational insights
+## Reservations & Booking Experience
+- Users can browse cabins with detailed information and availability
+- Dynamic date range selection for booking stays
+- Reservation system calculates stay duration and pricing automatically
+- Guests can create, update, and manage their bookings seamlessly
 
 ## Core Features
 
-- **Cabin Management**
-  - Create, update, and delete cabin records with real-time availability updates
+- **Cabin Exploration**
+  - Browse available cabins with descriptions, images, pricing, and guest capacity
 
-- **Booking Management**
-  - Manage reservations, check guests in and out, and update booking statuses
+- **Filtering System**
+  - Filter cabins based on guest capacity for easier navigation
 
-- **Real-time Sync**
-  - Cabins and bookings update instantly across the app using Supabase
+- **Reservation Management**
+  - Create, edit, and manage reservations with real-time updates
 
-- **Dark Mode**
-  - Fully supported dark mode for improved usability and accessibility
+- **Google Authentication**
+  - Secure login flow with protected user-specific features
+
+- **Responsive Design**
+  - Fully responsive experience optimized for desktop and mobile devices
 
 ## Tech Stack
 
-- **Frontend:** React, React Router, Styled Components
-- **State & Data:** React Query
-- **Backend & Auth:** Supabase (Database, Authentication, Real-time)
-- **Forms:** React Hook Form
-- **Charts:** Recharts
-- **Build tool:** Vite
+- **Frontend:** Next.js (App Router), React
+- **Styling:** Tailwind CSS
+- **Authentication:** Auth.js / NextAuth with Google OAuth
+- **Database & Backend:** Supabase
+- **Date Handling:** React Day Picker, date-fns
+- **Deployment:** Vercel
 
 ## Engineering Highlights
 
-- Implemented secure authentication workflows using Supabase
-- Designed real-time data synchronization for bookings and cabin availability
-- Built reusable and scalable UI components using modern React patterns
-- Managed asynchronous data fetching and caching with React Query
-- Developed a theme-aware UI with full dark mode support
+- Built using Next.js App Router with Server Components and Client Components
+- Implemented secure Google authentication and protected routes
+- Used Server Actions for handling reservations and user interactions
+- Applied URL-based filtering using search parameters
+- Optimized performance through server-side rendering and data fetching patterns
+- Designed reusable components with a scalable project structure
 
-## Credentials (Use this to login into the application)
-- **Email:** aman@example.com
-- **Password:** pass1234
-  
+## Live Demo
+
+🔗 [Visit Application](https://lodgic-customer.vercel.app/)
+
+## Test Credentials
+
+- Login through Google authentication
 
 ## Author
 
